@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.hdr-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.hdr-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu{
+    display: none;
+}
+
+/* section->decor */
+
+.decor{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.decor-image{
+    width: 100%;
+    height: 500px;
+}
+
+.decor-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.decor-info{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.decor-info i{
+    font-size: 70px;
+    transform: skew();
+}
+
+.decor-info p{
+    font-size: 30px;
+    color: white;
+}
+.decor-info h2{
+    font-size: 70px;
+    color: white;
+}
+.decor-link{
+    font-size: 20px;
+    color: white;
+}
+.decor-link a{
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+    
+}
+
+/* section interior */
+
+.interior{
+    padding: 30px 0px;
+    height: 50vh;
+    gap: 50px;
+
+}
+
+.interior-image{
+    width: 80%;
+    /* height: 70vh; */
+}
+.interior-image p{
+    font-size: 35px;
+}
+
+.interior-image img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 2s ease;
+}
+.interior-image img:hover{
+    transform: translateX(50px);
+}
+
+.interior-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    gap: 30px;
+}
+.interior-link a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+

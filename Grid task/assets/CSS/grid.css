@@ -1,0 +1,46 @@
+.boxes {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(253, 253, 255);
+    display: grid;
+    grid-template-columns: 350px 350px 350px 300px;
+    position: relative;
+    bottom: 280px;
+
+}
+
+.boxes-two {
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    background-color: rgb(253, 253, 255);
+    display: grid;
+    grid-template-columns: 350px 350px 350px 300px;
+    position: relative;
+
+
+}
+
+.follow-boxes {
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    background-color: rgb(214, 215, 102);
+    display: grid;
+    grid-template-columns: 350px 350px 350px 300px;
+    position: relative;
+
+}
+
+.box {
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+    border-radius: 10px;
+}
+
+.box img {
+    border-radius: 10px;
+}

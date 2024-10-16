@@ -1,0 +1,126 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background-image: linear-gradient(to right, orange, yellow, blue);
+            width: 100%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 10;
+        }
+
+        .li {
+            font-size: 20px;
+            display: inline-block;
+            color: white;
+            padding: 15px;
+        }
+
+        /* section */
+        .product {
+            margin: 100px 400px;
+            display: inline-block;
+        }
+
+        .product h2 {
+            font-size: 30px;
+        }
+
+        .hvr-image {
+            background-color: darkgray;
+            width: 400px;
+            height: 400px;
+            position: relative;
+            padding: 150px 100px;
+        }
+
+        .hvr-image p {
+            font-size: 50px;
+        }
+
+        .hvr {
+            background-color: rgb(9, 9, 241);
+            position: relative;
+            width: 400px;
+            height: 400px;
+            padding: 160px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+        }
+
+        .hvr-image:hover .hvr {
+            opacity: 0.9;
+        }
+
+        .fa-circle-info {
+            font-size: 70px;
+        }
+
+        /* section-2 */
+
+        .box {
+            background-color: darkgray;
+            display: inline-block;
+            margin: 20px;
+            width: 350px;
+            height: 250px;
+            position: relative;
+            border-radius: 10%;
+
+        }
+
+        .box-image {
+            font-size: 50px;
+            width: 100%;
+            padding: 100px 80px;
+        }
+
+        .box-image i {
+            position: absolute;
+            font-size: 35px;
+            top: 10px;
+            right: 10px;
+        }
+
+        .box-info {
+            background-color: white;
+            border: 1px solid black;
+        }
+
+
+        .fa-heart {
+            font-size: 20px;
+            position: absolute;
+            top: 5px;
+            right: 15px;
+        }
+
+        .settings {
+            display: inline-block;
+            position: fixed;
+            bottom: 30px;
+            right: 20px;
+        }
+
+        .settings i {
+            font-size: 50px;
+        }
+
+
+        /* footer */
+
+        .fouture {
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            height: 50px;
+            width: 100%;
+            bottom: 0;
+            padding: 20px 400px;
+        }
